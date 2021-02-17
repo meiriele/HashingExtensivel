@@ -6,7 +6,6 @@
 
 using namespace std;
 
-/* Print usage menu */
 
 void menu()
 {
@@ -34,7 +33,7 @@ int main()
     int chave, modo;
     string escolha, valor;
 
-    mostrarMensagem = 1; //utilizar 0 quando o input vier de file e nao do console
+    mostrarMensagem = 1; 
 
     mostrarDuplicidadeDePonteiros = 0; //utilizar 1 para mostrar duplicidade de ponteiros
 
